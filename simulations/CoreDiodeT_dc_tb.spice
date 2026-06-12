@@ -1,0 +1,77 @@
+** sch_path: /foss/designs/ihp_INI_project/xschem_bias_gen/test_bench/CoreDiodeT_dc_tb.sch
+**.subckt CoreDiodeT_dc_tb
+v_en BIASGEN_en_VS vssa 1.2
+Vdd vdda vssa 1.2
+Vss vssa GND 0
+I0 vdda ref_VUN[0] 100f
+I1 vdda ref_VUN[1] 1p
+I2 vdda ref_VUN[2] 10p
+I3 vdda ref_VUN[3] 100p
+I4 vdda ref_VUN[4] 1n
+I6 vdda ref_VUN[6] 100n
+I5 vdda ref_VUN[5] 10n
+I7 vdda ref_VUN[7] 1u
+x3 ref_VUN[7] ref_VUN[6] ref_VUN[5] ref_VUN[4] ref_VUN[3] ref_VUN[2] ref_VUN[1] ref_VUN[0] vssa BIASGEN_en_VS CoreDiodeT
+**** begin user architecture code
+
+.lib cornerMOShv.lib mos_tt
+
+
+
+.param temp=27
+
+.options abstol=1e-15
+.options gmin=1e-15
+.control
+save all
+    op
+
+    write CoreDiodeT_dc_tb.raw
+
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  CoreDiodeT.sym # of pins=3
+** sym_path: /foss/designs/ihp_INI_project/xschem_bias_gen/CoreDiodeT.sym
+** sch_path: /foss/designs/ihp_INI_project/xschem_bias_gen/CoreDiodeT.sch
+.subckt CoreDiodeT ref_VUN[7] ref_VUN[6] ref_VUN[5] ref_VUN[4] ref_VUN[3] ref_VUN[2] ref_VUN[1] ref_VUN[0] vssa en_VS
+*.iopin ref_VUN[7],ref_VUN[6],ref_VUN[5],ref_VUN[4],ref_VUN[3],ref_VUN[2],ref_VUN[1],ref_VUN[0]
+*.ipin en_VS
+*.iopin vssa
+x1 ref_VUN[7] vssa en_VS ref_VUN[7] ISINK
+x2 ref_VUN[6] vssa en_VS ref_VUN[6] ISINK
+x3 ref_VUN[5] vssa en_VS ref_VUN[5] ISINK
+x4 ref_VUN[4] vssa en_VS ref_VUN[4] ISINK
+x5 ref_VUN[3] vssa en_VS ref_VUN[3] ISINK
+x6 ref_VUN[2] vssa en_VS ref_VUN[2] ISINK
+x7 ref_VUN[1] vssa en_VS ref_VUN[1] ISINK
+x8 ref_VUN[0] vssa en_VS ref_VUN[0] ISINK
+C0 ref_VUN[0] vssa 2p
+C1 ref_VUN[1] vssa 2p
+C2 ref_VUN[2] vssa 2p
+C3 ref_VUN[3] vssa 2p
+C4 ref_VUN[4] vssa 2p
+C5 ref_VUN[5] vssa 2p
+C6 ref_VUN[6] vssa 2p
+C7 ref_VUN[7] vssa 2p
+.ends
+
+
+* expanding   symbol:  ISINK.sym # of pins=4
+** sym_path: /foss/designs/ihp_INI_project/xschem_bias_gen/ISINK.sym
+** sch_path: /foss/designs/ihp_INI_project/xschem_bias_gen/ISINK.sch
+.subckt ISINK bias_VN vssa en_VS io_UN
+*.ipin en_VS
+*.iopin vssa
+*.ipin bias_VN
+*.iopin io_UN
+XM1 io_UN en_VS net2 vssa sg13_hv_nmos w=2.5u l=0.5u ng=1
+XM2 net2 bias_VN net1 vssa sg13_hv_nmos w=1u l=2u ng=1
+XM3 net1 bias_VN vssa vssa sg13_hv_nmos w=1u l=2u ng=1
+.ends
+
+.GLOBAL GND
+.end

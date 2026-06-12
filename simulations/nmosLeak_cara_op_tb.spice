@@ -1,0 +1,51 @@
+** sch_path: /foss/designs/ihp_INI_project/xschem_bias_gen/test_bench/nmosLeak_cara_op_tb.sch
+**.subckt nmosLeak_cara_op_tb
+Vgs net1 GND 0
+Vds net3 GND 1.2
+Vd net3 net2 0
+.save i(vd)
+XM1 net2 net1 GND GND sg13_hv_nmos w=1u l={Lch} ng=1
+**** begin user architecture code
+
+.lib cornerMOShv.lib mos_tt
+
+
+
+.options savecurrents
+.param temp=27
+.param Lch=0.45u
+
+.options abstol=1e-18
+.options gmin=1e-18
+
+
+.control
+
+let L = 0.45u
+
+while L <= 10u
+
+    alterparam Lch=$&L
+    reset
+    * sweep VGS inside each L
+    dc Vgs 0 0.05 0.001
+
+    * save a dedicated file per L
+
+* Use curly braces to seamlessly glue the text parts and the evaluated variable together
+    set filename = moslk/mos_VGS_L_{$&L}.raw
+
+    * Write the data out using the variable
+    write $filename
+
+    let L = L + 0.2u
+
+end
+
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

@@ -1,0 +1,54 @@
+** sch_path: /foss/designs/ihp_INI_project/xschem_bias_gen/test_bench/ISINK_dc_tb.sch
+**.subckt ISINK_dc_tb
+v_en BIASGEN_en_VS vssa 1.2
+Vdd vdda vssa 1.2
+Vss vssa GND 0
+x2 bias_VN_blockedNmos vssa BIASGEN_en_VS bias_VN_blockedNmos ISINK
+I0 vdda bias_VN_blockedNmos {IBIAS}
+XMUX_L1_D bias_VN_blockedNmos vssa vssa vssa sg13_hv_nmos w=0.45 l=10.0u ng=1
+v_gate gate vssa 1.2
+x1 bias_VN_noLeak vssa BIASGEN_en_VS bias_VN_noLeak ISINK
+I1 vdda bias_VN_noLeak {IBIAS}
+x3 bias_VN_floatingbulkS vssa BIASGEN_en_VS bias_VN_floatingbulkS ISINK
+I2 vdda bias_VN_floatingbulkS {IBIAS}
+XMUX_L1 bias_VN_floatingbulkS vssa floating_Mux_net floating_Mux_net sg13_hv_nmos w=0.45 l=10.0u ng=1
+Iref vdda vssa {IBIAS}
+**** begin user architecture code
+
+.lib cornerMOShv.lib mos_tt
+
+
+
+.param temp=27
+.param IBIAS=1m
+
+.options abstol=1e-14
+.options gmin=1e-14
+.control
+save all
+    dc I2 10p 1u 10p
+
+    write ISINK_floatingbulkS_dc_tb.raw
+    plot V(bias_VN_floatingbulkS)
+
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  ISINK.sym # of pins=4
+** sym_path: /foss/designs/ihp_INI_project/xschem_bias_gen/ISINK.sym
+** sch_path: /foss/designs/ihp_INI_project/xschem_bias_gen/ISINK.sch
+.subckt ISINK bias_VN vssa en_VS io_UN
+*.ipin en_VS
+*.iopin vssa
+*.ipin bias_VN
+*.iopin io_UN
+XM1 io_UN en_VS net2 vssa sg13_hv_nmos w=2.5u l=0.5u ng=1
+XM2 net2 bias_VN net1 vssa sg13_hv_nmos w=1u l=2u ng=1
+XM3 net1 bias_VN vssa vssa sg13_hv_nmos w=1u l=2u ng=1
+.ends
+
+.GLOBAL GND
+.end

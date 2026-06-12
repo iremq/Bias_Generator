@@ -1,0 +1,40 @@
+** sch_path: /foss/designs/ihp_INI_project/xschem_bias_gen/test_bench/analog_bus_pin_tb.sch
+**.subckt analog_bus_pin_tb
+x1 MBAS[1] MBAS[0] analog_bus_pin_source
+R1 mbas0 0 1k
+R2 mbas1 0 1k
+R3 MBAS[1] mbas0 1k
+R4 MBAS[0] mbas1 1k
+**** begin user architecture code
+
+
+.param temp=27
+
+.options abstol=1e-16
+.options gmin=1e-16
+.control
+
+
+
+
+    tran 1m 10m
+
+
+    plot v(mbas0) v(mbas1)
+
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  test_bench/analog_bus_pin_source.sym # of pins=1
+** sym_path: /foss/designs/ihp_INI_project/xschem_bias_gen/test_bench/analog_bus_pin_source.sym
+** sch_path: /foss/designs/ihp_INI_project/xschem_bias_gen/test_bench/analog_bus_pin_source.sch
+.subckt analog_bus_pin_source MBIAS[1] MBIAS[0]
+*.opin MBIAS[1],MBIAS[0]
+V1 MBIAS[0] 0 3
+V2 MBIAS[1] 0 1
+.ends
+
+.end

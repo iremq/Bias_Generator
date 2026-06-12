@@ -1,0 +1,386 @@
+Here are the vectors currently active:
+
+Title: ** sch_path: /foss/designs/ihp_ini_project/xschem_bias_gen/test_bench/selmux_dc_tb.sch
+Name: tran4 (Transient Analysis)
+Date: Thu Jun 11 21:21:29  2026
+
+    biasgen_en_vs       : voltage, real, 2 long
+    en_vs[0]            : voltage, real, 2 long
+    en_vs[1]            : voltage, real, 2 long
+    en_vs[2]            : voltage, real, 2 long
+    en_vsb[0]           : voltage, real, 2 long
+    en_vsb[1]           : voltage, real, 2 long
+    en_vsb[2]           : voltage, real, 2 long
+    n.x1.xmux_l0_0.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l0_0.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l0_0.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l0_0.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l0_0.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l0_0.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l0_0.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l0_1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l0_1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l0_1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l0_1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l0_1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l0_1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l0_1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l0_2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l0_2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l0_2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l0_2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l0_2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l0_2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l0_2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l0_3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l0_3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l0_3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l0_3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l0_3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l0_3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l0_3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l0_4.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l0_4.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l0_4.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l0_4.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l0_4.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l0_4.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l0_4.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l0_5.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l0_5.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l0_5.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l0_5.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l0_5.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l0_5.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l0_5.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l0_6.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l0_6.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l0_6.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l0_6.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l0_6.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l0_6.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l0_6.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l0_7.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l0_7.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l0_7.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l0_7.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l0_7.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l0_7.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l0_7.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l1_a.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l1_a.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l1_a.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l1_a.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l1_a.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l1_a.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l1_a.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l1_b.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l1_b.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l1_b.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l1_b.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l1_b.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l1_b.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l1_b.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l1_c.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l1_c.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l1_c.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l1_c.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l1_c.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l1_c.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l1_c.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l1_d.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l1_d.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l1_d.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l1_d.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l1_d.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l1_d.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l1_d.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l2_a.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l2_a.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l2_a.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l2_a.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l2_a.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l2_a.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l2_a.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x1.xmux_l2_b.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x1.xmux_l2_b.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x1.xmux_l2_b.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x1.xmux_l2_b.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x1.xmux_l2_b.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x1.xmux_l2_b.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x1.xmux_l2_b.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x2.xm1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x2.xm1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x2.xm1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x2.xm1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x2.xm1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x2.xm1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x2.xm1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x2.xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x2.xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x2.xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x2.xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x2.xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x2.xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x2.xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x2.xm3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x2.xm3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x2.xm3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x2.xm3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x2.xm3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x2.xm3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x2.xm3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x1.xm1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x1.xm1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x1.xm1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x1.xm1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x1.xm1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x1.xm1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x1.xm1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x1.xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x1.xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x1.xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x1.xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x1.xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x1.xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x1.xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x1.xm3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x1.xm3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x1.xm3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x1.xm3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x1.xm3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x1.xm3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x1.xm3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x2.xm1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x2.xm1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x2.xm1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x2.xm1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x2.xm1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x2.xm1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x2.xm1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x2.xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x2.xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x2.xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x2.xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x2.xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x2.xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x2.xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x2.xm3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x2.xm3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x2.xm3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x2.xm3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x2.xm3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x2.xm3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x2.xm3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x3.xm1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x3.xm1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x3.xm1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x3.xm1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x3.xm1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x3.xm1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x3.xm1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x3.xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x3.xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x3.xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x3.xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x3.xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x3.xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x3.xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x3.xm3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x3.xm3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x3.xm3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x3.xm3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x3.xm3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x3.xm3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x3.xm3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x4.xm1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x4.xm1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x4.xm1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x4.xm1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x4.xm1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x4.xm1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x4.xm1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x4.xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x4.xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x4.xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x4.xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x4.xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x4.xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x4.xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x4.xm3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x4.xm3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x4.xm3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x4.xm3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x4.xm3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x4.xm3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x4.xm3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x5.xm1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x5.xm1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x5.xm1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x5.xm1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x5.xm1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x5.xm1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x5.xm1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x5.xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x5.xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x5.xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x5.xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x5.xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x5.xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x5.xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x5.xm3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x5.xm3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x5.xm3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x5.xm3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x5.xm3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x5.xm3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x5.xm3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x6.xm1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x6.xm1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x6.xm1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x6.xm1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x6.xm1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x6.xm1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x6.xm1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x6.xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x6.xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x6.xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x6.xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x6.xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x6.xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x6.xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x6.xm3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x6.xm3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x6.xm3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x6.xm3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x6.xm3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x6.xm3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x6.xm3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x7.xm1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x7.xm1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x7.xm1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x7.xm1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x7.xm1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x7.xm1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x7.xm1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x7.xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x7.xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x7.xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x7.xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x7.xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x7.xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x7.xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x7.xm3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x7.xm3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x7.xm3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x7.xm3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x7.xm3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x7.xm3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x7.xm3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x8.xm1.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x8.xm1.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x8.xm1.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x8.xm1.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x8.xm1.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x8.xm1.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x8.xm1.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x8.xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x8.xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x8.xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x8.xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x8.xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x8.xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x8.xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.x3.x8.xm3.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.x3.x8.xm3.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.x3.x8.xm3.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.x3.x8.xm3.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.x3.x8.xm3.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.x3.x8.xm3.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.x3.x8.xm3.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.xinv[0].xm1.nsg13_hv_pmos#BI: voltage, real, 2 long
+    n.xinv[0].xm1.nsg13_hv_pmos#BP: voltage, real, 2 long
+    n.xinv[0].xm1.nsg13_hv_pmos#BS: voltage, real, 2 long
+    n.xinv[0].xm1.nsg13_hv_pmos#DI: voltage, real, 2 long
+    n.xinv[0].xm1.nsg13_hv_pmos#GP: voltage, real, 2 long
+    n.xinv[0].xm1.nsg13_hv_pmos#NOI: voltage, real, 2 long
+    n.xinv[0].xm1.nsg13_hv_pmos#SI: voltage, real, 2 long
+    n.xinv[0].xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.xinv[0].xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.xinv[0].xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.xinv[0].xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.xinv[0].xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.xinv[0].xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.xinv[0].xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.xinv[1].xm1.nsg13_hv_pmos#BI: voltage, real, 2 long
+    n.xinv[1].xm1.nsg13_hv_pmos#BP: voltage, real, 2 long
+    n.xinv[1].xm1.nsg13_hv_pmos#BS: voltage, real, 2 long
+    n.xinv[1].xm1.nsg13_hv_pmos#DI: voltage, real, 2 long
+    n.xinv[1].xm1.nsg13_hv_pmos#GP: voltage, real, 2 long
+    n.xinv[1].xm1.nsg13_hv_pmos#NOI: voltage, real, 2 long
+    n.xinv[1].xm1.nsg13_hv_pmos#SI: voltage, real, 2 long
+    n.xinv[1].xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.xinv[1].xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.xinv[1].xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.xinv[1].xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.xinv[1].xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.xinv[1].xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.xinv[1].xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    n.xinv[2].xm1.nsg13_hv_pmos#BI: voltage, real, 2 long
+    n.xinv[2].xm1.nsg13_hv_pmos#BP: voltage, real, 2 long
+    n.xinv[2].xm1.nsg13_hv_pmos#BS: voltage, real, 2 long
+    n.xinv[2].xm1.nsg13_hv_pmos#DI: voltage, real, 2 long
+    n.xinv[2].xm1.nsg13_hv_pmos#GP: voltage, real, 2 long
+    n.xinv[2].xm1.nsg13_hv_pmos#NOI: voltage, real, 2 long
+    n.xinv[2].xm1.nsg13_hv_pmos#SI: voltage, real, 2 long
+    n.xinv[2].xm2.nsg13_hv_nmos#BI: voltage, real, 2 long
+    n.xinv[2].xm2.nsg13_hv_nmos#BP: voltage, real, 2 long
+    n.xinv[2].xm2.nsg13_hv_nmos#BS: voltage, real, 2 long
+    n.xinv[2].xm2.nsg13_hv_nmos#DI: voltage, real, 2 long
+    n.xinv[2].xm2.nsg13_hv_nmos#GP: voltage, real, 2 long
+    n.xinv[2].xm2.nsg13_hv_nmos#NOI: voltage, real, 2 long
+    n.xinv[2].xm2.nsg13_hv_nmos#SI: voltage, real, 2 long
+    net1                : voltage, real, 2 long
+    net2                : voltage, real, 2 long
+    ref_vun[0]          : voltage, real, 2 long
+    ref_vun[1]          : voltage, real, 2 long
+    ref_vun[2]          : voltage, real, 2 long
+    ref_vun[3]          : voltage, real, 2 long
+    ref_vun[4]          : voltage, real, 2 long
+    ref_vun[5]          : voltage, real, 2 long
+    ref_vun[6]          : voltage, real, 2 long
+    ref_vun[7]          : voltage, real, 2 long
+    time                : time, real, 2 long [default scale]
+    v0#branch           : current, real, 2 long
+    v1#branch           : current, real, 2 long
+    v2#branch           : current, real, 2 long
+    v_bias_un#branch    : current, real, 2 long
+    v_en#branch         : current, real, 2 long
+    vdd#branch          : current, real, 2 long
+    vdda                : voltage, real, 2 long
+    vss#branch          : current, real, 2 long
+    vssa                : voltage, real, 2 long
+    x1.net1             : voltage, real, 2 long
+    x1.net2             : voltage, real, 2 long
+    x1.net3             : voltage, real, 2 long
+    x1.net4             : voltage, real, 2 long
+    x1.net5             : voltage, real, 2 long
+    x1.net6             : voltage, real, 2 long
+    x2.net1             : voltage, real, 2 long
+    x2.net2             : voltage, real, 2 long
+    x3.x1.net1          : voltage, real, 2 long
+    x3.x1.net2          : voltage, real, 2 long
+    x3.x2.net1          : voltage, real, 2 long
+    x3.x2.net2          : voltage, real, 2 long
+    x3.x3.net1          : voltage, real, 2 long
+    x3.x3.net2          : voltage, real, 2 long
+    x3.x4.net1          : voltage, real, 2 long
+    x3.x4.net2          : voltage, real, 2 long
+    x3.x5.net1          : voltage, real, 2 long
+    x3.x5.net2          : voltage, real, 2 long
+    x3.x6.net1          : voltage, real, 2 long
+    x3.x6.net2          : voltage, real, 2 long
+    x3.x7.net1          : voltage, real, 2 long
+    x3.x7.net2          : voltage, real, 2 long
+    x3.x8.net1          : voltage, real, 2 long
+    x3.x8.net2          : voltage, real, 2 long
