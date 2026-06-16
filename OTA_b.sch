@@ -14,11 +14,9 @@ N -40 -0 -0 -0 {lab=n2}
 N -0 -70 40 -70 {lab=n2}
 N 40 -150 40 -70 {lab=n2}
 N -80 -310 -80 -20 {lab=vpmirr}
-N 220 60 350 60 {lab=VSSA}
 N 670 -180 670 -120 {lab=VOP}
 N -30 -340 420 -340 {lab=vpmirr}
 N 190 -210 350 -210 {lab=vtail}
-N 220 -180 360 -180 {lab=VSSA}
 N 190 -390 190 -210 {lab=vtail}
 N 40 -210 190 -210 {lab=vtail}
 N -80 -540 -80 -340 {lab=VDDA}
@@ -49,9 +47,8 @@ N 670 -100 670 60 {lab=VSSA}
 N -80 0 -80 60 {lab=VSSA}
 N 40 -0 40 60 {lab=VSSA}
 N 570 -300 630 -300 {lab=VBP}
-N 220 -180 220 60 {lab=VSSA}
-N 40 -180 220 -180 {lab=VSSA}
-N 40 60 220 60 {lab=VSSA}
+N 40 -180 360 -180 {lab=VDDA}
+N 40 60 350 60 {lab=VSSA}
 N -80 60 40 60 {lab=VSSA}
 N -330 60 -80 60 {lab=VSSA}
 N -80 -540 190 -540 {lab=VDDA}
@@ -93,7 +90,7 @@ model=sg13_hv_pmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_hv_pmos.sym} 170 -420 0 0 {name=M4
-l=0.5u
+l=500n
 w=12u
 ng=2
 m=8
@@ -101,7 +98,7 @@ model=sg13_hv_pmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_hv_pmos.sym} -60 -340 0 1 {name=M5
-l=0.5u
+l=500n
 w=2u
 ng=2
 m=4
@@ -109,7 +106,7 @@ model=sg13_hv_pmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_hv_pmos.sym} 440 -340 0 0 {name=M6
-l=0.5u
+l=500n
 w=2u
 ng=2
 m=4
@@ -118,7 +115,7 @@ spiceprefix=X
 }
 C {sg13g2_pr/sg13_hv_nmos.sym} 440 0 0 0 {name=M7
 l=0.5u
-w=2u
+w=1.75u
 ng=2
 m=4
 model=sg13_hv_nmos
@@ -128,14 +125,14 @@ C {sg13g2_pr/sg13_hv_nmos.sym} 650 -100 0 0 {name=M8
 l=0.5u
 w=4u
 ng=4
-m=2
+m=4
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_hv_pmos.sym} 650 -300 0 0 {name=M9
 l=0.5u
-w=42u
-ng=14
+w=4u
+ng=2
 m=1
 model=sg13_hv_pmos
 spiceprefix=X
@@ -153,7 +150,7 @@ C {ipin.sym} 0 -180 0 0 {name=p2 lab=INP}
 C {ipin.sym} 390 -180 0 1 {name=p3 lab=INN}
 C {iopin.sym} -330 60 0 1 {name=p4 lab=VSSA}
 C {lab_wire.sym} 590 -300 0 0 {name=p5 sig_type=std_logic lab=VBP}
-C {lab_wire.sym} 180 -180 0 0 {name=p6 sig_type=std_logic lab=VSSA}
+C {lab_wire.sym} 180 -180 0 0 {name=p6 sig_type=std_logic lab=VDDA}
 C {res.sym} 520 -230 1 0 {name=R1
 value=49.84k
 footprint=1206
@@ -170,7 +167,7 @@ C {sg13cmos5l_pr/cap_mfringe.sym} 600 -230 1 0 {name=C1
 model=cap_mfringe
 w=28.0u
 l=10.0u
-mmin=1
-mmax=4
+toplev=8
+botlev=4
 spiceprefix=X
 }

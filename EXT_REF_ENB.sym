@@ -1,7 +1,7 @@
 v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {type=subcircuit
-format="@spiceprefix@name @EXT_REF_EN @EXT_REF_ENB @VDDA @VSSA EXT_REF_ENB"
+format="@spiceprefix@name @pinlist @symname"
 template="name=I1 spiceprefix=X"
 }
 V {}
