@@ -25,7 +25,7 @@ N 0 -140 0 -90 {lab=#net2}
 N 0 50 30 50 {lab=vssa}
 N 0 -60 30 -60 {lab=vssa}
 N 0 -170 30 -170 {lab=vssa}
-N -100 -170 -40 -170 {}
+N -100 -170 -40 -170 {lab=en_VS}
 C {sg13g2_pr/sg13_hv_nmos.sym} -20 -170 0 0 {name=M1
 l=0.5u
 w=2.5u
@@ -35,7 +35,7 @@ model=sg13_hv_nmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_hv_nmos.sym} -20 -60 0 0 {name=M2
-l=2u
+l=4u
 w=1u
 ng=1
 m=1
@@ -43,7 +43,7 @@ model=sg13_hv_nmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_hv_nmos.sym} -20 50 0 0 {name=M3
-l=2u
+l=4u
 w=1u
 ng=1
 m=1

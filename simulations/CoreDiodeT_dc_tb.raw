@@ -1,213 +1,0 @@
-Title: ** sch_path: /foss/designs/ihp_ini_project/xschem_bias_gen/test_bench/corediodet_dc_tb.sch
-Date: Thu Jun 11 23:48:15  2026
-Command: ngspice-46, Build Wed May 13 18:50:08 UTC 2026
-Plotname: Operating Point
-Flags: real
-No. Variables: 198
-No. Points: 1
-Variables:
-	0	v(biasgen_en_vs)	voltage
-	1	v(n.x3.x1.xm1.nsg13_hv_nmos#bi)	voltage
-	2	v(n.x3.x1.xm1.nsg13_hv_nmos#bp)	voltage
-	3	v(n.x3.x1.xm1.nsg13_hv_nmos#bs)	voltage
-	4	v(n.x3.x1.xm1.nsg13_hv_nmos#di)	voltage
-	5	v(n.x3.x1.xm1.nsg13_hv_nmos#gp)	voltage
-	6	v(n.x3.x1.xm1.nsg13_hv_nmos#noi)	voltage
-	7	v(n.x3.x1.xm1.nsg13_hv_nmos#si)	voltage
-	8	v(n.x3.x1.xm2.nsg13_hv_nmos#bi)	voltage
-	9	v(n.x3.x1.xm2.nsg13_hv_nmos#bp)	voltage
-	10	v(n.x3.x1.xm2.nsg13_hv_nmos#bs)	voltage
-	11	v(n.x3.x1.xm2.nsg13_hv_nmos#di)	voltage
-	12	v(n.x3.x1.xm2.nsg13_hv_nmos#gp)	voltage
-	13	v(n.x3.x1.xm2.nsg13_hv_nmos#noi)	voltage
-	14	v(n.x3.x1.xm2.nsg13_hv_nmos#si)	voltage
-	15	v(n.x3.x1.xm3.nsg13_hv_nmos#bi)	voltage
-	16	v(n.x3.x1.xm3.nsg13_hv_nmos#bp)	voltage
-	17	v(n.x3.x1.xm3.nsg13_hv_nmos#bs)	voltage
-	18	v(n.x3.x1.xm3.nsg13_hv_nmos#di)	voltage
-	19	v(n.x3.x1.xm3.nsg13_hv_nmos#gp)	voltage
-	20	v(n.x3.x1.xm3.nsg13_hv_nmos#noi)	voltage
-	21	v(n.x3.x1.xm3.nsg13_hv_nmos#si)	voltage
-	22	v(n.x3.x2.xm1.nsg13_hv_nmos#bi)	voltage
-	23	v(n.x3.x2.xm1.nsg13_hv_nmos#bp)	voltage
-	24	v(n.x3.x2.xm1.nsg13_hv_nmos#bs)	voltage
-	25	v(n.x3.x2.xm1.nsg13_hv_nmos#di)	voltage
-	26	v(n.x3.x2.xm1.nsg13_hv_nmos#gp)	voltage
-	27	v(n.x3.x2.xm1.nsg13_hv_nmos#noi)	voltage
-	28	v(n.x3.x2.xm1.nsg13_hv_nmos#si)	voltage
-	29	v(n.x3.x2.xm2.nsg13_hv_nmos#bi)	voltage
-	30	v(n.x3.x2.xm2.nsg13_hv_nmos#bp)	voltage
-	31	v(n.x3.x2.xm2.nsg13_hv_nmos#bs)	voltage
-	32	v(n.x3.x2.xm2.nsg13_hv_nmos#di)	voltage
-	33	v(n.x3.x2.xm2.nsg13_hv_nmos#gp)	voltage
-	34	v(n.x3.x2.xm2.nsg13_hv_nmos#noi)	voltage
-	35	v(n.x3.x2.xm2.nsg13_hv_nmos#si)	voltage
-	36	v(n.x3.x2.xm3.nsg13_hv_nmos#bi)	voltage
-	37	v(n.x3.x2.xm3.nsg13_hv_nmos#bp)	voltage
-	38	v(n.x3.x2.xm3.nsg13_hv_nmos#bs)	voltage
-	39	v(n.x3.x2.xm3.nsg13_hv_nmos#di)	voltage
-	40	v(n.x3.x2.xm3.nsg13_hv_nmos#gp)	voltage
-	41	v(n.x3.x2.xm3.nsg13_hv_nmos#noi)	voltage
-	42	v(n.x3.x2.xm3.nsg13_hv_nmos#si)	voltage
-	43	v(n.x3.x3.xm1.nsg13_hv_nmos#bi)	voltage
-	44	v(n.x3.x3.xm1.nsg13_hv_nmos#bp)	voltage
-	45	v(n.x3.x3.xm1.nsg13_hv_nmos#bs)	voltage
-	46	v(n.x3.x3.xm1.nsg13_hv_nmos#di)	voltage
-	47	v(n.x3.x3.xm1.nsg13_hv_nmos#gp)	voltage
-	48	v(n.x3.x3.xm1.nsg13_hv_nmos#noi)	voltage
-	49	v(n.x3.x3.xm1.nsg13_hv_nmos#si)	voltage
-	50	v(n.x3.x3.xm2.nsg13_hv_nmos#bi)	voltage
-	51	v(n.x3.x3.xm2.nsg13_hv_nmos#bp)	voltage
-	52	v(n.x3.x3.xm2.nsg13_hv_nmos#bs)	voltage
-	53	v(n.x3.x3.xm2.nsg13_hv_nmos#di)	voltage
-	54	v(n.x3.x3.xm2.nsg13_hv_nmos#gp)	voltage
-	55	v(n.x3.x3.xm2.nsg13_hv_nmos#noi)	voltage
-	56	v(n.x3.x3.xm2.nsg13_hv_nmos#si)	voltage
-	57	v(n.x3.x3.xm3.nsg13_hv_nmos#bi)	voltage
-	58	v(n.x3.x3.xm3.nsg13_hv_nmos#bp)	voltage
-	59	v(n.x3.x3.xm3.nsg13_hv_nmos#bs)	voltage
-	60	v(n.x3.x3.xm3.nsg13_hv_nmos#di)	voltage
-	61	v(n.x3.x3.xm3.nsg13_hv_nmos#gp)	voltage
-	62	v(n.x3.x3.xm3.nsg13_hv_nmos#noi)	voltage
-	63	v(n.x3.x3.xm3.nsg13_hv_nmos#si)	voltage
-	64	v(n.x3.x4.xm1.nsg13_hv_nmos#bi)	voltage
-	65	v(n.x3.x4.xm1.nsg13_hv_nmos#bp)	voltage
-	66	v(n.x3.x4.xm1.nsg13_hv_nmos#bs)	voltage
-	67	v(n.x3.x4.xm1.nsg13_hv_nmos#di)	voltage
-	68	v(n.x3.x4.xm1.nsg13_hv_nmos#gp)	voltage
-	69	v(n.x3.x4.xm1.nsg13_hv_nmos#noi)	voltage
-	70	v(n.x3.x4.xm1.nsg13_hv_nmos#si)	voltage
-	71	v(n.x3.x4.xm2.nsg13_hv_nmos#bi)	voltage
-	72	v(n.x3.x4.xm2.nsg13_hv_nmos#bp)	voltage
-	73	v(n.x3.x4.xm2.nsg13_hv_nmos#bs)	voltage
-	74	v(n.x3.x4.xm2.nsg13_hv_nmos#di)	voltage
-	75	v(n.x3.x4.xm2.nsg13_hv_nmos#gp)	voltage
-	76	v(n.x3.x4.xm2.nsg13_hv_nmos#noi)	voltage
-	77	v(n.x3.x4.xm2.nsg13_hv_nmos#si)	voltage
-	78	v(n.x3.x4.xm3.nsg13_hv_nmos#bi)	voltage
-	79	v(n.x3.x4.xm3.nsg13_hv_nmos#bp)	voltage
-	80	v(n.x3.x4.xm3.nsg13_hv_nmos#bs)	voltage
-	81	v(n.x3.x4.xm3.nsg13_hv_nmos#di)	voltage
-	82	v(n.x3.x4.xm3.nsg13_hv_nmos#gp)	voltage
-	83	v(n.x3.x4.xm3.nsg13_hv_nmos#noi)	voltage
-	84	v(n.x3.x4.xm3.nsg13_hv_nmos#si)	voltage
-	85	v(n.x3.x5.xm1.nsg13_hv_nmos#bi)	voltage
-	86	v(n.x3.x5.xm1.nsg13_hv_nmos#bp)	voltage
-	87	v(n.x3.x5.xm1.nsg13_hv_nmos#bs)	voltage
-	88	v(n.x3.x5.xm1.nsg13_hv_nmos#di)	voltage
-	89	v(n.x3.x5.xm1.nsg13_hv_nmos#gp)	voltage
-	90	v(n.x3.x5.xm1.nsg13_hv_nmos#noi)	voltage
-	91	v(n.x3.x5.xm1.nsg13_hv_nmos#si)	voltage
-	92	v(n.x3.x5.xm2.nsg13_hv_nmos#bi)	voltage
-	93	v(n.x3.x5.xm2.nsg13_hv_nmos#bp)	voltage
-	94	v(n.x3.x5.xm2.nsg13_hv_nmos#bs)	voltage
-	95	v(n.x3.x5.xm2.nsg13_hv_nmos#di)	voltage
-	96	v(n.x3.x5.xm2.nsg13_hv_nmos#gp)	voltage
-	97	v(n.x3.x5.xm2.nsg13_hv_nmos#noi)	voltage
-	98	v(n.x3.x5.xm2.nsg13_hv_nmos#si)	voltage
-	99	v(n.x3.x5.xm3.nsg13_hv_nmos#bi)	voltage
-	100	v(n.x3.x5.xm3.nsg13_hv_nmos#bp)	voltage
-	101	v(n.x3.x5.xm3.nsg13_hv_nmos#bs)	voltage
-	102	v(n.x3.x5.xm3.nsg13_hv_nmos#di)	voltage
-	103	v(n.x3.x5.xm3.nsg13_hv_nmos#gp)	voltage
-	104	v(n.x3.x5.xm3.nsg13_hv_nmos#noi)	voltage
-	105	v(n.x3.x5.xm3.nsg13_hv_nmos#si)	voltage
-	106	v(n.x3.x6.xm1.nsg13_hv_nmos#bi)	voltage
-	107	v(n.x3.x6.xm1.nsg13_hv_nmos#bp)	voltage
-	108	v(n.x3.x6.xm1.nsg13_hv_nmos#bs)	voltage
-	109	v(n.x3.x6.xm1.nsg13_hv_nmos#di)	voltage
-	110	v(n.x3.x6.xm1.nsg13_hv_nmos#gp)	voltage
-	111	v(n.x3.x6.xm1.nsg13_hv_nmos#noi)	voltage
-	112	v(n.x3.x6.xm1.nsg13_hv_nmos#si)	voltage
-	113	v(n.x3.x6.xm2.nsg13_hv_nmos#bi)	voltage
-	114	v(n.x3.x6.xm2.nsg13_hv_nmos#bp)	voltage
-	115	v(n.x3.x6.xm2.nsg13_hv_nmos#bs)	voltage
-	116	v(n.x3.x6.xm2.nsg13_hv_nmos#di)	voltage
-	117	v(n.x3.x6.xm2.nsg13_hv_nmos#gp)	voltage
-	118	v(n.x3.x6.xm2.nsg13_hv_nmos#noi)	voltage
-	119	v(n.x3.x6.xm2.nsg13_hv_nmos#si)	voltage
-	120	v(n.x3.x6.xm3.nsg13_hv_nmos#bi)	voltage
-	121	v(n.x3.x6.xm3.nsg13_hv_nmos#bp)	voltage
-	122	v(n.x3.x6.xm3.nsg13_hv_nmos#bs)	voltage
-	123	v(n.x3.x6.xm3.nsg13_hv_nmos#di)	voltage
-	124	v(n.x3.x6.xm3.nsg13_hv_nmos#gp)	voltage
-	125	v(n.x3.x6.xm3.nsg13_hv_nmos#noi)	voltage
-	126	v(n.x3.x6.xm3.nsg13_hv_nmos#si)	voltage
-	127	v(n.x3.x7.xm1.nsg13_hv_nmos#bi)	voltage
-	128	v(n.x3.x7.xm1.nsg13_hv_nmos#bp)	voltage
-	129	v(n.x3.x7.xm1.nsg13_hv_nmos#bs)	voltage
-	130	v(n.x3.x7.xm1.nsg13_hv_nmos#di)	voltage
-	131	v(n.x3.x7.xm1.nsg13_hv_nmos#gp)	voltage
-	132	v(n.x3.x7.xm1.nsg13_hv_nmos#noi)	voltage
-	133	v(n.x3.x7.xm1.nsg13_hv_nmos#si)	voltage
-	134	v(n.x3.x7.xm2.nsg13_hv_nmos#bi)	voltage
-	135	v(n.x3.x7.xm2.nsg13_hv_nmos#bp)	voltage
-	136	v(n.x3.x7.xm2.nsg13_hv_nmos#bs)	voltage
-	137	v(n.x3.x7.xm2.nsg13_hv_nmos#di)	voltage
-	138	v(n.x3.x7.xm2.nsg13_hv_nmos#gp)	voltage
-	139	v(n.x3.x7.xm2.nsg13_hv_nmos#noi)	voltage
-	140	v(n.x3.x7.xm2.nsg13_hv_nmos#si)	voltage
-	141	v(n.x3.x7.xm3.nsg13_hv_nmos#bi)	voltage
-	142	v(n.x3.x7.xm3.nsg13_hv_nmos#bp)	voltage
-	143	v(n.x3.x7.xm3.nsg13_hv_nmos#bs)	voltage
-	144	v(n.x3.x7.xm3.nsg13_hv_nmos#di)	voltage
-	145	v(n.x3.x7.xm3.nsg13_hv_nmos#gp)	voltage
-	146	v(n.x3.x7.xm3.nsg13_hv_nmos#noi)	voltage
-	147	v(n.x3.x7.xm3.nsg13_hv_nmos#si)	voltage
-	148	v(n.x3.x8.xm1.nsg13_hv_nmos#bi)	voltage
-	149	v(n.x3.x8.xm1.nsg13_hv_nmos#bp)	voltage
-	150	v(n.x3.x8.xm1.nsg13_hv_nmos#bs)	voltage
-	151	v(n.x3.x8.xm1.nsg13_hv_nmos#di)	voltage
-	152	v(n.x3.x8.xm1.nsg13_hv_nmos#gp)	voltage
-	153	v(n.x3.x8.xm1.nsg13_hv_nmos#noi)	voltage
-	154	v(n.x3.x8.xm1.nsg13_hv_nmos#si)	voltage
-	155	v(n.x3.x8.xm2.nsg13_hv_nmos#bi)	voltage
-	156	v(n.x3.x8.xm2.nsg13_hv_nmos#bp)	voltage
-	157	v(n.x3.x8.xm2.nsg13_hv_nmos#bs)	voltage
-	158	v(n.x3.x8.xm2.nsg13_hv_nmos#di)	voltage
-	159	v(n.x3.x8.xm2.nsg13_hv_nmos#gp)	voltage
-	160	v(n.x3.x8.xm2.nsg13_hv_nmos#noi)	voltage
-	161	v(n.x3.x8.xm2.nsg13_hv_nmos#si)	voltage
-	162	v(n.x3.x8.xm3.nsg13_hv_nmos#bi)	voltage
-	163	v(n.x3.x8.xm3.nsg13_hv_nmos#bp)	voltage
-	164	v(n.x3.x8.xm3.nsg13_hv_nmos#bs)	voltage
-	165	v(n.x3.x8.xm3.nsg13_hv_nmos#di)	voltage
-	166	v(n.x3.x8.xm3.nsg13_hv_nmos#gp)	voltage
-	167	v(n.x3.x8.xm3.nsg13_hv_nmos#noi)	voltage
-	168	v(n.x3.x8.xm3.nsg13_hv_nmos#si)	voltage
-	169	v(ref_vun[0])	voltage
-	170	v(ref_vun[1])	voltage
-	171	v(ref_vun[2])	voltage
-	172	v(ref_vun[3])	voltage
-	173	v(ref_vun[4])	voltage
-	174	v(ref_vun[5])	voltage
-	175	v(ref_vun[6])	voltage
-	176	v(ref_vun[7])	voltage
-	177	i(v_en)	current
-	178	i(vdd)	current
-	179	v(vdda)	voltage
-	180	i(vss)	current
-	181	v(vssa)	voltage
-	182	v(x3.x1.net1)	voltage
-	183	v(x3.x1.net2)	voltage
-	184	v(x3.x2.net1)	voltage
-	185	v(x3.x2.net2)	voltage
-	186	v(x3.x3.net1)	voltage
-	187	v(x3.x3.net2)	voltage
-	188	v(x3.x4.net1)	voltage
-	189	v(x3.x4.net2)	voltage
-	190	v(x3.x5.net1)	voltage
-	191	v(x3.x5.net2)	voltage
-	192	v(x3.x6.net1)	voltage
-	193	v(x3.x6.net2)	voltage
-	194	v(x3.x7.net1)	voltage
-	195	v(x3.x7.net2)	voltage
-	196	v(x3.x8.net1)	voltage
-	197	v(x3.x8.net2)	voltage
-Binary:
-433333Û?/Œ•˝X©å=
-:ùµŒâ=        Ω´99cÑ=433333Û?        ™cËÑı—ç=rXœÃxí=df∏:7ãÑ=        ˝N¶v’}=`€l¨Ï?        ªÛÇ˝eMà=vÜ»$∂Áo=m˛bNË…R=        0dNË…R=`€l¨Ï?        bÂX7∂í\=yh‹l—+â=∆ﬂı˚€Tà=        Øã"¯ÄkÇ=433333Û?        ‹â:ˆ´µä=Î»(i±ì=jiLëÍFÇ=        …Èw6î~=¿˝ó]ø‰?        ‚W+Ø®)â=n◊hﬁæé`=s‡$nB=        Ë$nB=¿˝ó]ø‰?        ^ÌÎ®LK=¯6*Ûúá=J(rfv˚Ü=        ZˆùÅ=433333Û?        K
-îïèíà=Ñœ/ıóì=:ÒÀ=·Å=        Á‹‡ÄÙ¯}=ÿæQö€*·?        ”Öﬂ·/πà=¨§»@|V=_ùœ Ñ8=        pûœ Ñ8=ÿæQö€*·?        F)ﬁ§=˘A=Y¸Qk·9Ñ=ÁO\—9Ñ=        ó˝≥ç }=433333Û?        ®æÎ<CÖ=¨ö.Pë=è!y≠}=        óGæÍıy=ÄÚÎBuÙ‹?        q†-%{BÖ=7ù√·£hT=ﬁÍY´)6=        ‚'[´)6=ÄÚÎBuÙ‹?        „ø/€-7@=äCw]‡hÅ=ì—ﬂhÅ=        KÀ–]ﬂsy=433333Û?        oªÍëıÅ=Üj˙€‹ˆç=≤Hà µ∞y=        àÊ	Uﬁv=Ôw~ ıÀ◊?        ¯òrÃﬁÅ=¨ûú]<T=˜^|z”5=        ,ó}z”5=Ôw~ ıÀ◊?        G?ó^‹Ì?=åæ`∂$◊|=»bπ•$◊|=        Á¥ùpNÂt=433333Û?        ïpºKy}=8Ó¿∞â=®≈
- §u=        `≥IÍ¥˛q=∫B‹õ“?        ≠'˚∂v⁄|=Õé¥ôT= ;µ∑5=        mrµ∑5=∫B‹õ“?        nT1∞yƒ?=Ìh(cMv=Ω«ﬂcMv=        Vá…r˜o=433333Û?        ©Ã˝ .€u=ÙòT%9ïÉ="ä!Àfq=        RÄÇÿÿäk=·ÀKŸÒ¥ ?        Oº¯∫ƒºu=Tã≤4ÌS=¸Ô1~Mû5=        >%3~Mû5=·ÀKŸÒ¥ ?        ÏπÆüû?=YõÑˇà»m=bqIˇà»m=        Q[_
-e=433333Û?        ' pãÑl=ÿπwÊÑ¿z=ÉÉ±n®i=         ‹H∆{b=W¶q„¿?        vC/*ál=uê†ÚïØS=G°œàY5=        £“–àY5=W¶q„¿?        ¥e~Ç7?=W¶q„¿?·ÀKŸÒ¥ ?∫B‹õ“?Ôw~ ıÀ◊?ÅÚÎBuÙ‹?ÿæQö€*·?¿˝ó]ø‰?`€l¨Ï?      Ñ<Á’˛í/§≤æ433333Û?    ∞ Ö<        °Yi6Ã±?ëdnã≤›?óA€ëA"†?GeeEsÛ‡?M¯ﬂÄÀî?πﬂCﬁ·?l2Òè≠í?EπçAÓÛ‹?ãù/Œö`í?ÙÃ®ÃÀ◊?Ÿwπè÷Gí?!B•”€õ“?5
-º_11í?^=ï—Ò¥ ?ÊZuèãÛë?y÷q„¿?

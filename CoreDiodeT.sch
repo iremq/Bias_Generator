@@ -111,14 +111,14 @@ N 400 -320 400 -290 {lab=ref_VUN[4]}
 N 210 -320 210 -290 {lab=ref_VUN[5]}
 N 50 -320 50 -290 {lab=ref_VUN[6]}
 N -130 -320 -130 -290 {lab=ref_VUN[7]}
-C {ISINK.sym} -160 -80 0 0 {name=x1}
-C {ISINK.sym} 10 -80 0 0 {name=x2}
-C {ISINK.sym} 180 -80 0 0 {name=x3}
-C {ISINK.sym} 360 -80 0 0 {name=x4}
-C {ISINK.sym} 520 -80 0 0 {name=x5}
-C {ISINK.sym} 690 -80 0 0 {name=x6}
-C {ISINK.sym} 850 -80 0 0 {name=x7}
-C {ISINK.sym} 1020 -80 0 0 {name=x8}
+C {ISINK.sym} -160 -80 0 0 {name=x2[8:1]}
+C {ISINK.sym} 10 -80 0 0 {name=x9[8:1]}
+C {ISINK.sym} 180 -80 0 0 {name=x10[8:1]}
+C {ISINK.sym} 360 -80 0 0 {name=x11[8:1]}
+C {ISINK.sym} 520 -80 0 0 {name=x12[8:1]}
+C {ISINK.sym} 690 -80 0 0 {name=x13[8:1]}
+C {ISINK.sym} 850 -80 0 0 {name=x14[8:1]}
+C {ISINK.sym} 1020 -80 0 0 {name=x8[8:1]}
 C {lab_pin.sym} -320 80 0 0 {name=p5 lab=vssa}
 C {lab_pin.sym} 1190 -90 0 1 {name=p2 lab=en_VS}
 C {iopin.sym} -530 -490 3 1 {name=p1 lab=ref_VUN[7:0]}

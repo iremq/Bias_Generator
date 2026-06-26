@@ -6,25 +6,27 @@ S {}
 F {}
 E {}
 B 2 -330 -570 470 -170 {flags=graph
-y1=-3.0274286e-12
-y2=4.4430966e-12
+y1=-1.46421e-14
+y2=5.0079531e-14
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-0.125
-x2=0.375
+x1=-0.16353269
+x2=0.33646731
 divx=5
 subdivx=1
-node=i(vd)
-color=4
+node="i(vd)
+i(vd)"
+color="4 4"
 dataset=-1
 unitx=1
 logx=0
 logy=0
 sim_type=dc
-autoload=1}
+autoload=1
+}
 T {Ctrl-Click to execute launcher} 130 -150 0 0 0.3 0.3 {layer=11}
 T {.save file can be created with IHP->"Create FET and BIP .save file"} 130 -30 0 0 0.3 0.3 {layer=11}
 N -590 -10 -590 10 {

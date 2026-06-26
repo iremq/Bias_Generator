@@ -52,25 +52,25 @@ N 200 810 240 810 {lab=bias_VN}
 N 20 -0 80 -0 {lab=vssa}
 N 120 360 120 490 {lab=#net2}
 C {sg13g2_pr/sg13_hv_nmos.sym} 0 0 0 0 {name=M_en
-l=0.45u
-w=7.2u
+l=1u
+w=1u
 ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_hv_nmos.sym} 240 0 0 1 {name=M_enb
-l=0.45u
-w=7.2u
+l=1u
+w=1u
 ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_hv_nmos.sym} 140 150 0 1 {name=M_s1
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
@@ -92,99 +92,99 @@ C {lab_wire.sym} 10 850 2 1 {name=p_b1 sig_type=std_logic lab=A_UN}
 C {iopin.sym} -720 -400 1 0 {name=p_vssa1 lab=vssa}
 C {iopin.sym} -480 -400 1 0 {name=p_a1 lab=A_UN}
 C {sg13g2_pr/sg13_hv_nmos.sym} 140 210 0 1 {name=M_s2
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 50 210 0 0 {name=p_en_g4 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 140 270 0 1 {name=M_s3
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 50 270 0 0 {name=p_en_g7 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 140 330 0 1 {name=M_s4
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 50 330 0 0 {name=p_en_g8 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 140 520 0 1 {name=M_s5
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 50 520 0 0 {name=p_en_g5 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 140 580 0 1 {name=M_s6
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 50 580 0 0 {name=p_en_g6 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 140 640 0 1 {name=M_s7
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 50 640 0 0 {name=p_en_g9 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 140 700 0 1 {name=M_s8
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 50 700 0 0 {name=p_en_g10 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 200 830 3 1 {name=M_s9
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 200 920 3 0 {name=p_en_g11 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 260 830 3 1 {name=M_s10
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 260 920 3 0 {name=p_en_g12 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 320 830 3 1 {name=M_s11
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
 }
 C {lab_wire.sym} 320 920 3 0 {name=p_en_g13 sig_type=std_logic lab=vssa}
 C {sg13g2_pr/sg13_hv_nmos.sym} 380 830 3 1 {name=M_s12
-l=0.45u
-w=14.4u
-ng=2
+l=10u
+w=2u
+ng=1
 m=1
 model=sg13_hv_nmos
 spiceprefix=X
